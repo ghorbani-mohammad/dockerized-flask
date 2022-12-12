@@ -14,4 +14,4 @@ RUN pip install --upgrade pip && \
     pip install -r requirements.txt
 
 # copy project
-COPY . /usr/src/app/
+COPY . .
